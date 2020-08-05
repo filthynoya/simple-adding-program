@@ -9,12 +9,17 @@ int main (void)
 {
     std::string str1, str2, res;
 
+    std::cout << "Enter First number: ";
+
     std::cin >> str1;
+
+    std::cout << "Enter Second number: ";
+
     std::cin >> str2;
 
     res = sum_of (str1, str2);
 
-    std::cout << res << std::endl;
+    std::cout << "Result: " << res << std::endl;
 
     return 0;
 }
